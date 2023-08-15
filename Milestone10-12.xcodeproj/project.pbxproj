@@ -7,23 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		709969AD2A8B67BF00AD10C6 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709969AC2A8B67BF00AD10C6 /* DetailViewController.swift */; };
 		70C3244A2A8B597400CEEE17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C324492A8B597400CEEE17 /* AppDelegate.swift */; };
 		70C3244C2A8B597400CEEE17 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3244B2A8B597400CEEE17 /* SceneDelegate.swift */; };
-		70C3244E2A8B597400CEEE17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3244D2A8B597400CEEE17 /* ViewController.swift */; };
+		70C3244E2A8B597400CEEE17 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3244D2A8B597400CEEE17 /* TableViewController.swift */; };
 		70C324512A8B597400CEEE17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C3244F2A8B597400CEEE17 /* Main.storyboard */; };
 		70C324532A8B597400CEEE17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C324522A8B597400CEEE17 /* Assets.xcassets */; };
 		70C324562A8B597400CEEE17 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C324542A8B597400CEEE17 /* LaunchScreen.storyboard */; };
+		70C3245E2A8B5CEC00CEEE17 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C3245D2A8B5CEC00CEEE17 /* Photo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		709969AC2A8B67BF00AD10C6 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		70C324462A8B597400CEEE17 /* Milestone10-12.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Milestone10-12.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C324492A8B597400CEEE17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C3244B2A8B597400CEEE17 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70C3244D2A8B597400CEEE17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70C3244D2A8B597400CEEE17 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 		70C324502A8B597400CEEE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C324522A8B597400CEEE17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C324552A8B597400CEEE17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C324572A8B597400CEEE17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70C3245D2A8B5CEC00CEEE17 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				70C324492A8B597400CEEE17 /* AppDelegate.swift */,
 				70C3244B2A8B597400CEEE17 /* SceneDelegate.swift */,
-				70C3244D2A8B597400CEEE17 /* ViewController.swift */,
+				70C3244D2A8B597400CEEE17 /* TableViewController.swift */,
+				709969AC2A8B67BF00AD10C6 /* DetailViewController.swift */,
+				70C3245D2A8B5CEC00CEEE17 /* Photo.swift */,
 				70C3244F2A8B597400CEEE17 /* Main.storyboard */,
 				70C324522A8B597400CEEE17 /* Assets.xcassets */,
 				70C324542A8B597400CEEE17 /* LaunchScreen.storyboard */,
@@ -138,7 +144,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70C3244E2A8B597400CEEE17 /* ViewController.swift in Sources */,
+				70C3245E2A8B5CEC00CEEE17 /* Photo.swift in Sources */,
+				70C3244E2A8B597400CEEE17 /* TableViewController.swift in Sources */,
+				709969AD2A8B67BF00AD10C6 /* DetailViewController.swift in Sources */,
 				70C3244A2A8B597400CEEE17 /* AppDelegate.swift in Sources */,
 				70C3244C2A8B597400CEEE17 /* SceneDelegate.swift in Sources */,
 			);
@@ -290,6 +298,7 @@
 				DEVELOPMENT_TEAM = 75HJK5L45N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Milestone10-12/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to camera.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -318,6 +327,7 @@
 				DEVELOPMENT_TEAM = 75HJK5L45N;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Milestone10-12/Info.plist";
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to camera.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
